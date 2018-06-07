@@ -23,8 +23,7 @@ def nand_gate(input1, input2):
             val += "0"
         else:
             val += "1"
-
-    return val
+    print(val)
 
 
 def nor_gate(input1, input2):
@@ -35,7 +34,7 @@ def nor_gate(input1, input2):
         else:
             val += "1"
 
-    return val
+    print(val)
 
 
 def not_gate(input):
@@ -45,7 +44,7 @@ def not_gate(input):
             val = "1"
         else:
             val = "0"
-    return val
+    print(val)
 
 
 def or_gate(input1, input2):
@@ -66,7 +65,7 @@ def xnor_gate(input1, input2):
         else:
             val += "0"
 
-    return val
+    print(val)
 
 
 def xor_gate(input1, input2):
@@ -76,6 +75,7 @@ def xor_gate(input1, input2):
             val += "0"
         else:
             val += "1"
+    print(val)
 
 
 class AndGateLogic(argparse.Action):
